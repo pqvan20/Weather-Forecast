@@ -1,5 +1,5 @@
 // get key from this link: https://developer.accuweather.com/user/me/apps
-const key = '6pDNRGmYM4lSd7V9zhpaHjaHHYgGVGuQ';
+const key = 'Me922IEKPuC9NxY8JIbZWjBglUwdLpTx';
 
 // get hour weather forecast information
 const getHourWeather = async(cityID, index) => {
