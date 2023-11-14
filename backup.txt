@@ -1,0 +1,118 @@
+ <!-- <div class="center2">
+        <table class="dayTable">
+            <tr>
+                <td>Th 6</td>
+            </tr>
+            <tr>
+                <td><img class="dayIcon" src="images/8.svg"></td>
+            </tr>
+            <tr>
+                <td>26°-36°</td>
+            </tr>
+        </table>
+    </div> -->
+
+    <!-- <div>City Name</div>
+    <div class="CityName"></div>
+    <div>TemperatureMetricValue</div>
+    <div class="TemperatureMetricValue"></div>
+    <div>WeatherIcon</div>
+    <div class="WeatherIcon"></div>
+    <div>WeatherText</div>
+    <div class="WeatherText"></div>
+    <div>RelativeHumidity</div>
+    <div class="RelativeHumidity"></div>
+    <div>WindSpeedMetricValue</div>
+    <div class="WindSpeedMetricValue"></div>
+    <div>UVIndex</div>
+    <div class="UVIndex"></div>
+    <div>UVIndexText</div>
+    <div class="UVIndexText"></div> -->
+
+    <!-- <div class="containner">
+        <div class="vanWeather">
+            <span class="van">VĂN</span>
+            <span class="weather">Weather</span>
+            <img src="images/flag.png" class="vietnamFlag">
+        </div>
+        <div class="currentWeather">
+            <div class="place">Trieu Khuc</div>
+            <div>15/07/2021 9:26 AM</div>
+            <img class="image" src="images/22.svg">
+            <span class="num">31.6</span> <span class="degreeC">°C</span>
+            <span class="weatherText">Clouds and sun</span>
+        </div>
+        <br>
+        <div class="center1">
+            <div class="row1">
+                <table class="currentWeatherInfo">
+                    <tr>
+                        <td>UV index<img src="images/sun.svg" class="smallIcon"></td>
+
+                    </tr>
+
+                    <tr>
+                        <td>5 Moderate</td>
+                    </tr>
+                </table>
+
+                <table class="currentWeatherInfo">
+                    <tr>
+                        <td>Wind<img src="images/wind.png" class="smallIcon"></td>
+                    </tr>
+                    <tr>
+                        <td>6 km/h</td>
+                    </tr>
+                </table>
+                <table class="currentWeatherInfo">
+                    <tr>
+                        <td>Humidity<img src="images/waterdrop.png" class="smallHumidityIcon"></td>
+                    </tr>
+                    <tr>
+                        <td>40%</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="row2">
+                <table class="currentWeatherInfo">
+                    <tr>
+                        <td>Cloud Cover<img src="images/cloudCover.svg" class="smallIcon"></td>
+                    </tr>
+                    <tr>
+                        <td>17°C</td>
+                    </tr>
+                </table>
+                <table class="currentWeatherInfo">
+                    <tr>
+                        <td>Visibility<img src="images/visibility.png" class="smallIcon"></td>
+                    </tr>
+                    <tr>
+                        <td>16 km</td>
+                    </tr>
+                </table>
+
+                <table class="currentWeatherInfo">
+                    <tr>
+                        <td style="border:none">Dew Point<img src="images/dewPoint.png" class="smallDewPointIcon"></td>
+                    </tr>
+                    <tr>
+                        <td style="border:none">76%</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div> -->
+    <!-- <span class="left">ᐸ</span>
+    <span class="right">ᐳ</span> -->
+    <!-- <table class="dayTable">
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td><span class="right">🡢</span></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table> -->

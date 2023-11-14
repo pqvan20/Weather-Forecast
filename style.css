@@ -1,0 +1,456 @@
+    .center {
+        text-align: center;
+        margin-top: 1vw;
+    }
+    
+    .inputForm {
+        border: 0.2vw black solid;
+        border-radius: 1vw;
+        display: inline-block;
+    }
+    
+    .enter {
+        width: 22vw;
+        font-size: 1.4vw;
+        padding: 0.1vw 0.1vw;
+        display: inline;
+        outline: none;
+        border: none;
+        background: white;
+        margin: 1vw;
+    }
+    /* input[type=text]:focus {
+        background-color: lightblue;
+    } */
+    
+    .submit {
+        width: fit-content;
+        padding: 0.1vw 0.1vw;
+        display: inline;
+        outline: none;
+        border: none;
+        background: white;
+        margin: 1vw;
+    }
+    
+    .searchIcon {
+        width: 1.5vw;
+        display: block;
+    }
+    
+    .containner {
+        width: 80%;
+        height: fit-content;
+        background-color: #846faa;
+        margin: auto;
+        border-radius: 1vw;
+    }
+    
+    .vanWeather {
+        text-align: center;
+        font-weight: bold;
+        font-family: cursive;
+        font-size: 2.5vw;
+        padding-top: 1vw;
+    }
+    
+    .van {
+        color: darkorange;
+        margin-right: 0.1vw;
+    }
+    
+    .weather {
+        color: white;
+    }
+    
+    .vietnamFlag {
+        width: 2vw;
+    }
+    
+    .currentWeather {
+        margin-left: 5vw;
+        font-size: 2vw;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        display: inline-block;
+    }
+    
+    .place {
+        font-weight: bold;
+        margin-top: 3vw;
+    }
+    
+    .image {
+        width: 8vw;
+        float: left;
+        margin-top: 2vw;
+        margin-right: 1vw;
+    }
+    
+    .num {
+        float: left;
+        font-size: 7vw;
+        font-family: cursive;
+        margin-left: 1vw;
+    }
+    
+    .degreeC {
+        float: left;
+        margin-left: 1vw;
+        margin-top: 1.9vw;
+        font-size: 2vw;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .weatherText {
+        float: left;
+        margin-top: 4vw;
+        font-size: 2vw;
+        margin-left: 2vw;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .hour1 {
+        color: red;
+    }
+    /* Responsive layout - when the screen is more than 1000px wide, the value of font-size and photos are bigger*/
+    
+    @media screen and (min-width: 1001px) {
+        .currentWeatherInfo {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            border-collapse: collapse;
+            display: inline;
+            margin: 0vw 0.2vw;
+        }
+        .currentWeatherInfo td,
+        .currentWeatherInfo th {
+            font-size: 1.5vw;
+            padding: 1vw;
+            text-align: center;
+        }
+        .smallIcon {
+            margin-left: 1vw;
+            width: 2vw;
+        }
+        .smallHumidityIcon {
+            margin-left: 1vw;
+            width: 1vw;
+        }
+        .smallDewPointIcon {
+            margin-left: 1vw;
+            width: 1vw;
+        }
+        .center1 {
+            text-align: center;
+            margin-top: 2vw;
+            padding-bottom: 4vw;
+            background: #7d6aa0;
+            border-radius: 0vw 0vw 1vw 1vw;
+        }
+        .row1 {
+            display: inline;
+        }
+        .row2 {
+            display: inline;
+        }
+        .hourDayBorder {
+            display: inline-block;
+            border: 0.19vw white solid;
+            border-radius: 1vw;
+            /* margin: auto; */
+        }
+        .hourDaySection {
+            margin-top: 3vw;
+            text-align: center;
+        }
+        .hourDayTable {
+            font-size: 1.5vw;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: inline-block;
+            color: white;
+            margin: 0vw 1vw;
+        }
+        .hourDayIcon {
+            width: 3vw;
+        }
+        #hourTable5,
+        #hourTable6,
+        #hourTable7,
+        #hourTable8,
+        #hourTable9,
+        #hourTable10,
+        #hourTable11 {
+            display: none;
+        }
+        .hourTableNone {
+            display: none;
+        }
+        .hourTableDisplay {
+            display: inline;
+        }
+        .left {
+            width: 2.6vw;
+        }
+        .right {
+            width: 2.6vw;
+        }
+    }
+    /* Responsive layout - when the screen is less than 1000px and bigger than 400 wide, the value of font-size and photos are bigger */
+    
+    @media screen and (min-width: 401px) and (max-width: 1000px) {
+        .inputForm {
+            border-radius: 2vw;
+        }
+        .enter {
+            width: 63vw;
+            font-size: 4vw;
+        }
+        .searchIcon {
+            width: 4vw;
+        }
+        .containner {
+            width: 100%;
+            height: fit-content;
+            background-color: #846faa;
+            margin: auto;
+            border-radius: 1vw;
+        }
+        .vanWeather {
+            font-size: 5vw;
+            padding-top: 3vw;
+        }
+        .vietnamFlag {
+            width: 4vw;
+        }
+        .currentWeather {
+            font-size: 4vw;
+        }
+        .place {
+            font-weight: bold;
+            margin-top: 3vw;
+        }
+        .image {
+            width: 11vw;
+        }
+        .num {
+            font-size: 10vw;
+        }
+        .degreeC {
+            font-size: 4vw;
+            margin-left: 1.5vw;
+            margin-top: 1.6vw;
+        }
+        .weatherText {
+            font-size: 4vw;
+        }
+        .currentWeatherInfo {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            border-collapse: collapse;
+            display: inline;
+            margin: 0vw 0.2vw;
+        }
+        .currentWeatherInfo td,
+        .currentWeatherInfo th {
+            font-size: 4vw;
+            padding: 1vw;
+            text-align: center;
+        }
+        .smallIcon {
+            margin-left: 1vw;
+            width: 5vw;
+        }
+        .smallHumidityIcon {
+            margin-left: 1vw;
+            width: 3vw;
+        }
+        .smallDewPointIcon {
+            margin-left: 1vw;
+            width: 3vw;
+        }
+        .center1 {
+            text-align: center;
+            margin-top: 2vw;
+            padding-bottom: 4vw;
+            background: #7d6aa0;
+            border-radius: 0vw 0vw 1vw 1vw;
+        }
+        .row1 {
+            margin-top: 4vw;
+            text-align: center;
+            padding-top: 3vw;
+        }
+        .row2 {
+            margin-top: 4vw;
+            text-align: center;
+            padding-bottom: 2vw;
+        }
+        .hourDayBorder {
+            display: inline-block;
+            border: 0.19vw white solid;
+            border-radius: 2vw;
+        }
+        .hourDaySection {
+            margin-top: 3vw;
+            text-align: center;
+        }
+        .hourDayTable {
+            font-size: 4vw;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: inline-block;
+            color: white;
+            margin: 0vw 1vw;
+        }
+        .hourDayIcon {
+            width: 7vw;
+        }
+        #hourTable5,
+        #hourTable6,
+        #hourTable7,
+        #hourTable8,
+        #hourTable9,
+        #hourTable10,
+        #hourTable11 {
+            display: none;
+        }
+        .hourTableNone {
+            display: none;
+        }
+        .hourTableDisplay {
+            display: inline;
+        }
+        .left {
+            width: 4.5vw;
+        }
+        .right {
+            width: 4.5vw;
+        }
+    }
+    /* Responsive layout - when the screen is less than 400 wide, the value of font-size and photos are bigger */
+    
+    @media screen and (max-width: 400px) {
+        .inputForm {
+            border-radius: 2vw;
+        }
+        .enter {
+            width: 70vw;
+            font-size: 4vw;
+        }
+        .searchIcon {
+            width: 4vw;
+        }
+        .containner {
+            width: 100%;
+            border-radius: 2vw;
+        }
+        .vanWeather {
+            font-size: 5vw;
+            padding-top: 3vw;
+        }
+        .vietnamFlag {
+            width: 4vw;
+        }
+        .currentWeather {
+            font-size: 4vw;
+        }
+        .place {
+            font-weight: bold;
+            margin-top: 3vw;
+        }
+        .image {
+            width: 13vw;
+        }
+        .num {
+            font-size: 10vw;
+        }
+        .degreeC {
+            font-size: 4vw;
+            margin-left: 1.5vw;
+            margin-top: 1.6vw;
+        }
+        .weatherText {
+            font-size: 4vw;
+        }
+        .currentWeatherInfo {
+            margin-top: 9vw;
+            margin-left: 2vw;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            border-collapse: collapse;
+            display: inline;
+            margin: 0vw 1vw;
+        }
+        .currentWeatherInfo td,
+        .currentWeatherInfo th {
+            font-size: 4vw;
+            padding: 1vw;
+            text-align: center;
+        }
+        .smallIcon {
+            margin-left: 1vw;
+            width: 5vw;
+        }
+        .smallHumidityIcon {
+            margin-left: 1vw;
+            width: 3vw;
+        }
+        .smallDewPointIcon {
+            margin-left: 1vw;
+            width: 3vw;
+        }
+        .row1 {
+            margin-top: 4vw;
+            text-align: center;
+            padding-top: 3vw;
+        }
+        .row2 {
+            margin-top: 4vw;
+            text-align: center;
+            padding-bottom: 2vw;
+        }
+        .center1 {
+            background: #7d6aa0;
+            border-radius: 0vw 0vw 2vw 2vw;
+        }
+        .hourDayBorder {
+            display: inline-block;
+            border: 0.19vw white solid;
+            border-radius: 2vw;
+            /* margin: auto; */
+        }
+        .hourDaySection {
+            margin-top: 4vw;
+            text-align: center;
+        }
+        .hourDayTable {
+            font-size: 4vw;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: inline-block;
+            color: white;
+        }
+        .hourDayIcon {
+            width: 7vw;
+        }
+        .marginBottom {
+            padding-bottom: 4vw;
+        }
+        #hourTable5,
+        #hourTable6,
+        #hourTable7,
+        #hourTable8,
+        #hourTable9,
+        #hourTable10,
+        #hourTable11 {
+            display: none;
+        }
+        .left {
+            width: 5vw;
+        }
+        .right {
+            width: 5vw;
+        }
+    }
